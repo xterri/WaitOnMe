@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:paddingTop="20dp"
+android:paddingBottom="8dp"
+android:paddingLeft="16dp"
+android:paddingRight="16dp"
+android:gravity="center"
+android:orientation="vertical" >
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="5dp"
+    android:gravity="center_horizontal"
+    android:textSize="20dp"
+    android:text="Table 10"
+    android:textColor="#000000"/>
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="5dp"
+    android:text="Seated:   4" />
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="5dp"
+    android:text="Server:   Tingo" />
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="5dp"
+    android:text="Comments"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="top"
+        android:textColorHint="#cecece"
+        android:padding="5dp"
+        android:hint="Ex. Baby seat, vegetarian, vegan, celiac, etc."
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:background="@drawable/edittextbackground" />
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="80dp"
+        android:layout_height="30dp"
+        android:paddingTop="5dp"
+        android:layout_gravity="center_horizontal"
+        android:text="Submit"
+        android:textSize="12dp"/>
+</LinearLayout>
+
+    <!--
+    <?xml version="1.0" encoding="utf-8"?>
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent" android:layout_height="match_parent"
+        android:background="#ffffff">
+      <stroke android:width="5px" android:color="#fa8072" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="
+            TABLE 10
+            Server: Alejandro
+            Seated: 4"
+            />
+
+    </RelativeLayout>
+    -->

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">HostAssign</string>
+    <string-array name="servers_list">
+        <item>Tim Ngo</item>
+        <item>Truman Chan</item>
+        <item>Sean Darsie</item>
+        <item>Damia Hill</item>
+    </string-array>
+</resources>
