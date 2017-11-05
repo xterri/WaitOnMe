@@ -9,12 +9,12 @@
 
     <Button
         android:id="@+id/table"
-        android:layout_width="27dp"
-        android:layout_height="32dp"
+        android:layout_width="45dp"
+        android:layout_height="46dp"
         android:layout_alignParentEnd="true"
         android:layout_alignParentTop="true"
-        android:layout_marginEnd="153dp"
-        android:layout_marginTop="26dp"
+        android:layout_marginEnd="255dp"
+        android:layout_marginTop="36dp"
         android:background="#ffffff"
         android:fontFamily=""
         android:gravity="center"
