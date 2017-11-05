@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "493851266200",
+    "firebase_url": "https://wait-on-me.firebaseio.com",
+    "project_id": "wait-on-me",
+    "storage_bucket": "wait-on-me.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:493851266200:android:bad18ddf50bf51c6",
+        "android_client_info": {
+          "package_name": "com.example.hackathon.waitonmefirebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "493851266200-1sh2imjl8epm0ftmmqg0d35130ejvotm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAMFR1xbtKGHfNX8FyvL4nDwKtvqrh5s2k"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
