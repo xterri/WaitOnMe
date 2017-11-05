@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">WaitOnMe</string>
+    <string name="intro">This is for learning how to drag and drop</string>
+    <string name="option1">Tables</string>
+    <string name="option2">Walls</string>
+    <string name="option3">Host</string>
+    <string name="choice1">Blank Floor Plan</string>
+</resources>
