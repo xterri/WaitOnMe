@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xml:android="http://schemas.android.com/apk/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	xmlns:tools="http://schemas.android.com/tools"
+	tools:layout_editor_absoluteX="32dp"
+	tools:layout_editor_absoluteY="88dp"
+	tools:context="com.dummies.dragdrop.DragDrop.">
+
+</LinearLayout>
+
+	<TextView
+		android:id="@+id/dropzone"
+		android:layout_width="800dp"
+		android:layout_height="400dp"
+		android:layout_alignParentStart="true"
+		android:layout_centerVertical="true"
+		android:layout_marginStart="30dp"
+		android:background="#cecece"
+		android:padding="20dp"
+		android:text="dropzone" />
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:orientation="vertical"
+		>
+	<TextView
+		android:id="@+id/txt3"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_alignParentEnd="true"
+		android:layout_centerVertical="true"
+		android:layout_marginEnd="45dp"
+		android:text="item3" />
+
+	<TextView
+		android:id="@+id/txt1"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_above="@+id/txt2"
+		android:layout_alignStart="@+id/txt2"
+		android:layout_marginBottom="17dp"
+		android:text="item1" />
+
+	<TextView
+		android:id="@+id/txt2"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_alignBottom="@+id/txt3"
+		android:layout_alignStart="@+id/txt3"
+		android:layout_marginBottom="54dp"
+		android:text="item2" />
+
+
+</LinearLayout>
